@@ -1,0 +1,7 @@
+.item {
+  transition: color .3s ease-in-out;
+  :hover {
+    color: rgb(141, 141, 141);
+    transition: color .3s ease-in-out;
+  }
+}

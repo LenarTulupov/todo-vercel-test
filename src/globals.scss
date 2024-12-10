@@ -1,0 +1,26 @@
+:root {
+  --background-color: #F5F5F5;
+  --black-color: #2a2a2a;
+  --gap: 20px;
+  --header-height: 50px;
+  --footer-height: 50px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--black-color);
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: var(--black-color);
+  text-decoration: none;
+}
