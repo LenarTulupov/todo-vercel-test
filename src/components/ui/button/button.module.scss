@@ -1,0 +1,15 @@
+.button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: var(--border-radius);
+
+}
+.default {
+  &:hover {
+    outline: 2px solid pink;
+  }
+}
+.dropdown {
+  
+}

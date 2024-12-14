@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  align-self: start;
+  width: 100%;
+  background-color: #fff;
+  font-size: var(--font-size);
+  padding: var(--padding-list);
+  border-radius: var(--border-radius);
+  border: none;
+  color: var(--input-text-color);
+  transition: box-shadow .3s ease;
+  min-height: 50px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: var(--box-shadow);
+  }
+}

@@ -1,0 +1,23 @@
+.input {
+  height: 50px;
+  padding: 0 20px;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+  border: none;
+  box-shadow: var(--box-shadow);
+  color: var(--input-text-color);
+  &::placeholder {
+    transition: color .3s ease-in-out;
+  }
+  &:hover {
+    &::placeholder {
+      color: #555555;
+    }
+  }
+  &:focus {
+    outline: 1px solid black;
+  }
+}
+.full {
+  width: -webkit-fill-available;
+}
